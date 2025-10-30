@@ -1,0 +1,84 @@
+:root {
+  --violate-color: #A259FF; 
+}
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #2B2B2B;
+}
+
+.logo-icon,
+.logo-header-menu {
+  width: 30px;
+  height: 30px;
+}
+
+.header-flex{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+
+.header-flex-title {
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+.header-title {
+  text-align: center;
+  align-content: center;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+
+.header-buttons {
+display: none;
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+.logo-header-menu {
+  display: none;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  font-weight: 550;
+  align-items: center;
+}
+
+.common-button {
+margin-left: 30px;
+border: none;
+background-color: transparent;
+color: white;
+padding: 5px;
+font-size: 15px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.sign-up-container {
+display: flex;
+gap: 5px;
+background-color: var(--violate-color);
+padding: 10px;
+border-radius: 15px;
+}
+/* we need to change the hover*/
+.common-button:hover {
+  background-color: rgb(69, 70, 71);
+}
+}
