@@ -9,11 +9,7 @@ body {
   background-color: #2B2B2B;
 }
 
-.logo-icon,
-.logo-header-menu {
-  width: 30px;
-  height: 30px;
-}
+
 
 .header-flex{
   color: white;
@@ -27,6 +23,12 @@ body {
 display: flex;
 align-items: center;
 cursor: pointer;
+}
+
+.logo-icon,
+.logo-header-menu {
+  width: 30px;
+  height: 30px;
 }
 
 .header-title {
