@@ -1,0 +1,102 @@
+.tranding-collection {
+    padding: 40px 0 40px 0;
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+
+.trending-collection-top-txt .header {
+    font-weight:600;
+    font-size: 20px;
+}
+.trending-collection-top-txt .content {
+    color: rgb(206, 206, 206);
+    margin: 15px 0 20px 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+.tranding-collection .primary-image {
+    height: 315px;
+}
+.tranding-collection .secondary-images {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.tranding-collection .secondary-image {
+    height: 95px;
+    width: 95px;
+}
+.secondary-image-div {
+    background-color: #A259FF;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20%;
+}
+.tablet-posts {
+    display: none;
+}
+.pc-posts {
+    display: none;
+}
+.f-trending-collection-bottom-txt {
+    margin: 10px 0 10px 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+.f-trending-collection-bottom-grid{
+    display: flex;
+    gap: 10px;
+}
+
+@media (min-width: 768px) {
+    .trending-collection-top-txt .header {
+        font-weight: 600;
+        font-size: 27px;
+    }
+    .trending-collection-top-txt .content {
+        color: rgb(206, 206, 206);
+        margin: 15px 0 30px 0;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .trending-posts {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    }
+    .tranding-collection .primary-image {
+            height: 330px;
+        }
+    .tranding-collection .secondary-image {
+        height: 100px;
+        width: 100px;
+    }
+    .tablet-posts {
+            display: grid;
+        }
+}
+@media (min-width: 992px) {
+    .trending-collection-top-txt .header {
+        font-weight: 600;
+        font-size: 32px;
+    }
+
+    .trending-collection-top-txt .content {
+        color: rgb(206, 206, 206);
+        margin: 15px 0 30px 0;
+        font-weight: 400;
+        font-size: 22px;
+    }
+    .trending-posts {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+    }
+    .pc-posts {
+        display: grid;
+    }
+}
