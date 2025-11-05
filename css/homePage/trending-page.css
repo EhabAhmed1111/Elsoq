@@ -1,5 +1,5 @@
 .tranding-collection {
-    padding: 40px 0 40px 0;
+    /* padding: 40px 0 40px 0; */
     display: grid;
     justify-content: center;
     color: white;
@@ -16,25 +16,26 @@
     font-size: 14px;
 }
 .tranding-collection .primary-image {
-    height: 315px;
+    width: 100%;
+    height: 60%;
 }
 .tranding-collection .secondary-images {
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    gap: 3%;
 }
-.tranding-collection .secondary-image {
-    height: 95px;
-    width: 95px;
-}
+/* .tranding-collection .secondary-image {
+    height: 10%;
+    width: calc(94%/3);
+} */
 .secondary-image-div {
     background-color: #A259FF;
     display: grid;
     text-align: center;
     justify-content: center;
     align-content: center;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 .tablet-posts {
     display: none;
@@ -66,15 +67,16 @@
     .trending-posts {
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 40px;
+        gap: 4%;
     }
-    .tranding-collection .primary-image {
-            height: 330px;
-        }
-    .tranding-collection .secondary-image {
+    /* .tranding-collection .primary-image {
+            width: 100%;
+            height: 80%;
+        } */
+    /* .tranding-collection .secondary-image {
         height: 100px;
         width: 100px;
-    }
+    } */
     .tablet-posts {
             display: grid;
         }
@@ -94,7 +96,7 @@
     .trending-posts {
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        gap: 40px;
+        gap: 4%;
     }
     .pc-posts {
         display: grid;
